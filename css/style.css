@@ -1,0 +1,103 @@
+/* Style Page for Portfolio */
+/*Background video details*/
+video {
+    object-fit: cover;
+    width: 100vw;
+    height: 120vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+#app-body {
+    width: 100vw;
+    background: rgba(black, 0.66);
+    position: relative;
+    padding: 0rem;
+}
+
+/* General Crap */
+
+h2 {
+    font-family: 'Patua One', cursive;
+    color: #4dd0e1;
+}
+
+.links {
+    display: flex;
+    margin-left: 30px;
+    
+}
+
+.github {
+    margin-left: 560px;
+}
+
+
+
+.about-me{
+    font-family: 'Montserrat', sans-serif; 
+    font-size: larger;
+    color: white;
+    font-weight: 1000;
+}
+
+/* Navbar*/
+.brand-logo {
+    font-family: 'Patua One', cursive;
+}
+
+
+/* Page containers */
+#contentContainer {
+    min-height:700px;
+    background-color: white;
+    padding-top: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-bottom: 0px;
+}
+
+#bodyline {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 2px;
+    color: #dddddd;
+}
+
+
+/*le Footer*/
+#footer {
+    border-top-style: solid;
+    border-top-width: 8px;
+    border-top-color: #0288d1;
+}
+
+#pfooter {
+    text-align: center;
+    width: 100%;
+    color: gray;
+}
+
+/* 640px screen */
+@media only screen and (max-width: 640px) {
+    #h1 {
+        width: 100%;
+        margin: 0px 0px;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .github {
+        margin-left: 150px;
+    }
+
+    .links {
+        margin-top: 10px;
+    }
+
+}
