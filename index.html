@@ -8,6 +8,9 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Patua+One&display=swap" rel="stylesheet">
     <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/bulma@0.8.2/css/bulma.min.css" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="icon" type="image" href="Assets/alien.png" />
     <title>Hello, it's-a me, Paulina Lopez</title>
@@ -19,92 +22,239 @@
       <source src="Assets/space.mp4" type="video/mp4" />
     </video>
 
-    <!-- Navigation bar --> 
-     <div class="navbar-fixed">
-      <nav>
-        <div class="nav-wrapper indigo darken-4">
-          <a class="brand-logo center">Paulina López 👽</a>
-        </div>
-      </nav>
-     </div>
-    <!-- About Me --> 
-    <div class="container teal lighten-4">
-      <div class="row">
-        <div class="col-md">
-          <h2> Now, this is a story...</h2>
-          <hr id="bodyline">  
-        </div>
-      </div>
-      <hr id="bodyline">
-      <div class="row">
-        <div class="col-md-3">
-          <img src="Assets/pp.png" class="circle responsive-img" alt="Profile" />
-        </div>
-        <div class="col-md-9">
-        <div class="about-me">
-          <p>
-            About my academic and professional career has been diverse
-            and a wee bit strange. I studied Conservation Biology as my
-            undergraduate degree with the hope of FINISHING all future
-            extinctions in Mexico. Once I realized that was a very unrealistic
-            expectation, I noticed that the energy sector was one of the biggest
-            contributors to climate change. Therefore, I switch my academic
-            focus and decided to get a Master Sustainable Energy. 
-          </p>
-
-          <p>
-            I discovered that programmimg is as a field that can be used
-            in pretty much any area. With this in mind, I think I will be able
-            to merge all my current knowledge and apply it into a common field.
-           
-          </p>
-        </div>
-        </div>
+    <!-- Navigation bar -->
+  <nav class="navbar is-primary is-fixed-top">
+    <div class="navbar-brand">
+      <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
+        <span></span>
+        <span></span>
+        <span></span>
       </div>
     </div>
-    <!-- Contact Me --> 
-    <div class="container">
-      <div class="row">
-        <div class="col-md">
-          <h2> Please stalk me</h2>
-          <hr id="bodyline">  
-        </div>
-      </div>
-      <div class="row">
-        <div class="links col-md-6 about-me">
-          <p><i class="small material-icons">contact_mail</i> Email: paulina.lopez1994@gmail.com</p>
-        </div>
-        <div class="links col-md-6 about-me">
-          <p><i class="small material-icons">contact_phone</i>Phone: (55) 5535 652078</p>
-        </div>
-        <div class="row">
-        <div class="links col-md-4">
-          <a class="btn btn-large blue darken-3" href="https://www.linkedin.com/in/paulina-l%C3%B3pez-salinas-00b420126/" role="button"target="_blank">Linkedin</a>
-        </div>
 
-        <div class="links col-md-4">
-          <a class="btn btn-large deep-purple lighten-1" href="Assets/CV.pdf" role="button"target="_blank">CV</a>
-        </div>
-      </div>
-
-        <div class="links col-md-4 github">
-          <a class="btn btn-primary large github-button" href="https://github.com/paulinalo22" role="button"target="_blank">Go to my Profile</a>
-        </div>
-      </div>
-        </div>
-
-      </div>
+    <div id="navbarExampleTransparentExample" class="navbar-menu">
+      <div class="navbar-end">
+        <a class="navbar-item" href="#about">
+          <span class="icon">
+            <i class="fas fa-info"></i>
+          </span>
+          <span>About</span>
+        </a>
+        <a class="navbar-item" href="#services">
+          <span class="icon">
+            <i class="fas fa-bars"></i>
+          </span>
+          <span>Services</span>
+        </a>
+        <a class="navbar-item" href="#resume">
+          <span class="icon">
+            <i class="fas fa-file-alt"></i>
+          </span>
+          <span>CV</span>
+        </a>
+        <a class="navbar-item" href="#portfolio">
+          <span class="icon">
+            <i class="fas fa-th-list"></i>
+          </span>
+          <span>Portfolio</span>
+        </a>
       </div>
     </div>
-  
-  <!-- Portfolio --> 
-  <div class="container" class="pt-1" class="pb-1" id="contentContainer">
-      <div class="row">
-          <div class="col-md">
-          <h2>Portfolio</h2>
-          <hr id="bodyline">  
+  </nav>
+
+  <!-- Header -->
+  <section class="hero is-link is-fullheight is-fullheight-with-navbar">
+    <div class="hero-body">
+      <div class="container"> Call me 
+        <h1 class="title is-1">
+          Paulina López Salinas
+        </h1>
+        <h2 class="subtitle is-3">
+          Full Stack Web Developer 
+        </h2>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="section" id="about">
+    <!-- Title -->
+    <div class="section-heading">
+      <h3 class="title is-2">Now this is the story...</h3>
+      <h4 class="subtitle is-5"> about how I became a full stack developer </h4>
+      <div class="container">
+        <p>My academic and professional career has been diverse
+          and a wee bit strange. I studied Conservation Biology as my
+          undergraduate degree with the hope of FINISHING all future
+          extinctions in Mexico. Once I realized that was a very <strong>unrealistic</strong>
+          expectation, I noticed that the energy sector was one of the biggest
+          contributors to climate change. Therefore, I switch my academic
+          focus and decided to get a Master Sustainable Energy. 
+        </p>
+        <p>
+          I discovered that programmimg is as a field that can be used
+          in pretty much any area. With this in mind, I think I will be able
+          to merge all my current knowledge and apply it into a common field.
+        </p>
+      </div>
+    </div>
+
+    <div class="columns has-same-height is-gapless">
+      <div class="column">
+        <!-- Profile -->
+        <div class="card">
+          <div class="card-content">
+            <h3 class="title is-4">Please stalk me</h3>
+
+            <div class="content">
+              <table class="table-profile">
+                <tr>
+                  <th colspan="1"></th>
+                  <th colspan="2"></th>
+                </tr>
+                <tr>
+                  <td>Address:</td>
+                  <td>CDMX, México</td>
+                </tr>
+                <tr>
+                  <td>Phone:</td>
+                  <td>55 3565 2078</td>
+                </tr>
+                <tr>
+                  <td>Email:</td>
+                  <td>paulina.lopez1994@gmail.com</td>
+                </tr>
+              </table>
+            </div>
+            <br>
+            <div class="buttons has-addons is-centered">
+              <a class="btn btn-primary large github-button" href="https://github.com/paulinalo22" role="button"target="_blank">Go to my Profile</a>
+              <a class="btn btn-large blue darken-3" href="https://www.linkedin.com/in/paulina-l%C3%B3pez-salinas-00b420126/" role="button"target="_blank">Linkedin</a>
+              
+            </div>
           </div>
-      </div>  
+        </div>
+      </div>
+      <div class="column">
+        <!-- Profile picture -->
+        <div class="card">
+          <div class="card-image">
+            <figure class="image is-4by4">
+              <img src="Assets/pp.png" alt="Placeholder image">
+            </figure>
+          </div>
+        </div>
+      </div>
+      <div class="column">
+        <!-- Skills -->
+        <div class="card">
+          <div class="card-content skills-content">
+            <h3 class="title is-4">Skills</h3>
+            <div class="content">
+
+              <article class="media">
+                <div class="media-content">
+                  <div class="content">
+                    <p>
+                      <strong>JavaScript:</strong>
+                      <br>
+                      <progress class="progress is-primary" value="70" max="100"></progress>
+                    </p>
+                  </div>
+                </div>
+              </article>
+
+              <article class="media">
+                <div class="media-content">
+                  <div class="content">
+                    <p>
+                      <strong>Node.js:</strong>
+                      <br>
+                      <progress class="progress is-primary" value="65" max="100"></progress>
+                    </p>
+                  </div>
+                </div>
+              </article>
+
+              <article class="media">
+                <div class="media-content">
+                  <div class="content">
+                    <p>
+                      <strong>HTML5/CSS3</strong>
+                      <br>
+                      <progress class="progress is-primary" value="86" max="100"></progress>
+                    </p>
+                  </div>
+                </div>
+              </article>
+
+              <article class="media">
+                <div class="media-content">
+                  <div class="content">
+                    <p>
+                      <strong>Databases</strong>
+                      <br>
+                      <progress class="progress is-primary" value="66" max="100"></progress>
+                    </p>
+                  </div>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section class="section" id="services">
+    <div class="section-heading">
+      <h3 class="title is-2">Services</h3>
+      <h4 class="subtitle is-5">Whoomp There it is</h4>
+    </div>
+    <div class="container">
+      <div class="columns">
+        <div class="column">
+          <div class="box">
+            <div class="content">
+              <h4 class="title is-5">Front End Web Development</h4>
+              Develop Front End using latest standards with HTML/CSS with added funtionality using JavaScript
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="box">
+            <div class="content">
+              <h4 class="title is-5">Back End Web Development</h4>
+              Develop Back End application/service using Node.js and SQL server or Mongo DB databases.
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+
+    <!-- Resume -->
+    <section class="section" id="resume">
+      <div class="section-heading">
+        <h3 class="title is-2">CV</h3>
+        <h4 class="subtitle is-5">More about my past life</h4>
+        <a href="Assets/CV.pdf" class="button is-primary is-medium">
+          <span class="icon">
+            <i class="fas fa-file-alt"></i>
+          </span>
+          <span>Download My Resume</span>
+        </a>
+      </div>
+    </section>
+
+  <!-- Portfolio --> 
+  <div class="section" id="portfolio">
+    <div class="container">
+      <div class="section-heading">
+        <h3 class="title is-2">Portfolio</h3>
+        <h4 class="subtitle is-5">My latest works</h4>
+      </div>
+      <br> 
       <div class="row">
           <div class="col-md-6">
             <div class="card">
