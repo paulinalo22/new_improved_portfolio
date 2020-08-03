@@ -17,10 +17,6 @@ video {
 
 /* General Crap */
 
-h2 {
-    font-family: 'Patua One', cursive;
-    color: #4dd0e1;
-}
 
 .links {
     display: flex;
@@ -32,11 +28,9 @@ h2 {
     margin-left: 560px;
 }
 
-
-
-.about-me{
+.general{
     font-family: 'Montserrat', sans-serif; 
-    font-size: larger;
+    font-size: large;
     color: white;
     font-weight: 1000;
 }
@@ -73,7 +67,7 @@ h2 {
 #footer {
     border-top-style: solid;
     border-top-width: 8px;
-    border-top-color: #0288d1;
+    border-top-color: teal;
 }
 
 #pfooter {
