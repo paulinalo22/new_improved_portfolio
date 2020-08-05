@@ -33,12 +33,28 @@ video {
     font-size: large;
     color: white;
     font-weight: 1000;
+    padding-top: 0;
 }
 
 /* Navbar*/
 .brand-logo {
     font-family: 'Patua One', cursive;
 }
+
+.texto {
+    background-color: #f1e0f1;
+    padding: 20px;
+    border-radius: 15px;
+    color: black;
+}
+
+
+#stretch .stretch {
+    display: flex;
+  align-items: stretch !important;
+
+}
+
 
 
 /* Page containers */
